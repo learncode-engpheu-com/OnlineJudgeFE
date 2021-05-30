@@ -112,7 +112,7 @@
           <li><span style="font-weight: 600;">NÊN</span> thảo luận giải pháp 😘, <span style="font-weight: 600;">KHÔNG NÊN</span> chia sẻ code 😐</li>
           <li>Mọi source code đăng mà không được ẩn sẽ bị BOT xóa tự động 😭</li>
         </ul>
-        <script type="application/javascript" src="https://utteranc.es/client.js" repo="luyencode/comments" issue-term="pathname" theme="github-light" crossorigin="anonymous" async> </script>
+        <script type="application/javascript" src="https://utteranc.es/client.js" repo="learncode-engpheu-com/comments" issue-term="pathname" theme="github-light" crossorigin="anonymous" async> </script>
       </Card>
     </div>
     <div id="right-column">
@@ -216,18 +216,6 @@
             <a class="link-style" :href="'/problem/' + p._id">{{p._id}} - {{p.title}}</a>
           </li>
         </ul>
-      </Card>
-      <Card style="margin-top: 20px;" :padding="10" v-if="!this.contestID || OIContestRealTimePermission">
-        <div slot="title" style="font-size: 16px;"><i data-v-20c86fbe="" class="ivu-icon ivu-icon-android-favorite" style="color: red; font-size:1.2em;"></i>
-        <span class="card-title">Ủng hộ Luyện Code</span>
-        </div>
-        Ủng hộ 10.000đ giúp chúng tôi phát triển website hơn nữa:
-        <ul style="margin-left: 20px;margin-bottom: 10px;">
-          <li style="padding: 5px 0px;"><span style="color: green;">VPBank</span>: Nguyễn Văn Hiếu, STK: 146301158, chi nhánh Đông Đô</li>
-          <li style="padding: 5px 0px;"><span style="color: green;">MoMo/Zalopay</span>: Nguyễn Văn Hiếu, SĐT: 0349346164</li>
-          <li style="padding: 5px 0px;"><span style="color: green;">Paypal</span>: <a style="color: #495060;" target="_blank" href="https://www.paypal.me/nguyenvanhieuvn">paypal.me/nguyenvanhieuvn</a></li>
-        </ul>
-        Bạn cũng có thể tham gia đội đóng góp bài tập cho Luyện Code, liên hệ <a href="https://fb.com/hieunv.me" target="_blank">admin</a> để được hướng dẫn chi tiết.
       </Card>
     </div>
   
